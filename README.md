@@ -1,2 +1,5 @@
-# Pico_Micropython_documentation
-Documentation for the MicroPython port for the raspberry Pi Pico
+# Pico Micropython documentation
+
+This repo contains documentation for the MicroPython port for the Raspberry Pi Pico.  While the Pico has been lauded for the level and quality of documentation, I've actually found the MicroPython documentation to be a bit lacking.  For example,the official MicroPython project Pins module documentation lacks a `.toggle()` function despite this being used in some of the official Pico examples, while the official Raspberry Pi Pico Python SDK document doesn't list the allowable parameters for a lot of the functions it describes.  This has created a bit of confusion for me, and meant I've had to jump back and forward between the official MicroPython docs and the RPi Python SDK document.
+
+So, I'm collecting all of it here.  I'm scraping most of this from the files of the [Raspberry Pi Micropython rp2 port](https://github.com/raspberrypi/micropython/tree/pico/ports/rp2).  The format of this guide will probably change, as eventually there will be a lot of modules to document.
